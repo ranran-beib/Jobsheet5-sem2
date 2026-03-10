@@ -11,10 +11,10 @@ public class MainPangkat05 {
         Pangkat05[] png = new Pangkat05[elemen];
 
         for (int i = 0; i < elemen; i++) {
-            System.out.println("Masukkan nilai basis elemen ke-" + (i+1) + ": ");
+            System.out.print("Masukkan nilai basis elemen ke-" + (i+1) + ": ");
             int basis = sc.nextInt();
 
-            System.out.println("Masukkan nilai pangkat elemen ke-" + (i+1) + ": ");
+            System.out.print("Masukkan nilai pangkat elemen ke-" + (i+1) + ": ");
             int pangkat = sc.nextInt();
 
             png[i] = new Pangkat05(basis, pangkat);
